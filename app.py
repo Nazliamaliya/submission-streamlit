@@ -10,7 +10,7 @@ def load_data():
 df = load_data()
 
 st.sidebar.title('Menu')
-selected_page = st.sidebar.radio('Pilih Halaman:', ['Ringkasan Data', 'Trend Persewaan', 'Perbedaan Hari'])
+selected_page = st.sidebar.radio('Pilih Halaman:', ['Ringkasan Data', 'Trend Persewaan Sepeda Bulanan', 'Perbedaan Hari Kerja dan Tidak'])
 
 if selected_page == 'Ringkasan Data':
     st.title('Ringkasan Data')
