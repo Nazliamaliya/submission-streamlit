@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 
 @st.cache_data
 def load_data():
-    df = pd.read_csv(r'D:\MBKM THINGS\BANGKIT\hour.csv')
+    df = pd.read_csv('hour.csv')
     return df
 
 df = load_data()
