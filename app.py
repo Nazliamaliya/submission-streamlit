@@ -47,6 +47,6 @@ elif selected_page == 'Perbedaan Hari Kerja dan Tidak':
     ax1.pie(sizes, labels=labels, autopct='%1.1f%%', startangle=140, colors=['lightblue', 'lightcoral'])
     ax1.set_title('Perbandingan Rata-rata Jumlah Sewa Sepeda: Hari Kerja vs Bukan Hari Kerja')
     ax1.axis('equal')  
-    caption_text = "Persentase saat bukan hari kerja lebih besar dibandingkan saat hari kerja."
+    caption_text = "Persentase saat hari kerja lebih besar dibandingkan saat bukan hari kerja."
     plt.text(0.5, -0.5, caption_text, horizontalalignment='center', verticalalignment='center', transform=ax1.transAxes, fontsize=10, color='gray')
     st.pyplot(fig1)
