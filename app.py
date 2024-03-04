@@ -1,2 +1,2 @@
 import streamlit as st
-st.header('Ini percobaan Streamlit di Google Colab')
+st.header('Ini percobaan Update Streamlit')
